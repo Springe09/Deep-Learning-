@@ -12,19 +12,25 @@ You will need to:
 1. Prepare the data for training and testing
 
 * The model will use a rolling 10 day window to predict the 11th day closing price.
-* Using the window_data function to generate the X and y values for the model.
+* Use the window_data function to generate the X and y values for the model.
 * Split the data into 70% training and 30% testing
 * Apply the MinMaxScaler to the X and y values
-* Reshape the X_train and X_test data for the model. Note: The required input format for the LSTM is
+* Reshape the X_train and X_test data for the model.
 
 3. Build and train custom LSTM RNNs
-4. Evaluate the performance of each model
 
-> Which model has a lower loss?
->
-> Which model tracks the actual values better over time?
->
-> Which window size works best for the model?
+* Define the model architecture
+* Compile the model
+* Fit the model to the training data
+
+5. Evaluate the performance of each model
+
+* Which model has a lower loss?
+  The closing price model has a lower loss.
+
+* Which model tracks the actual values better over time?
+
+* Which window size works best for the model?
 
 
 
