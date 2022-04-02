@@ -1,4 +1,4 @@
-# Deep-Learning-
+# Deep-Learning
 
 # LSTM Stock Predictor
 
@@ -12,3 +12,12 @@ You will need to:
 1. Prepare the data for training and testing
 2. Build and train custom LSTM RNNs
 3. Evaluate the performance of each model
+
+> Which model has a lower loss?
+>
+> Which model tracks the actual values better over time?
+>
+> Which window size works best for the model?
+
+
+
