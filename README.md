@@ -10,8 +10,15 @@ You will use deep learning recurrent neural networks to model bitcoin closing pr
 You will need to:
 
 1. Prepare the data for training and testing
-2. Build and train custom LSTM RNNs
-3. Evaluate the performance of each model
+
+* The model will use a rolling 10 day window to predict the 11th day closing price.
+* Using the window_data function to generate the X and y values for the model.
+* Split the data into 70% training and 30% testing
+* Apply the MinMaxScaler to the X and y values
+* Reshape the X_train and X_test data for the model. Note: The required input format for the LSTM is
+
+3. Build and train custom LSTM RNNs
+4. Evaluate the performance of each model
 
 > Which model has a lower loss?
 >
